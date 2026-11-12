@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Academic-Planner | Michelle</title>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="top">
+        <a class="brand" href="index.html"
+          ><span class="mark">M</span> Michelle</a
+        ><button class="menu" aria-label="Toggle navigation">Menu</button>
+        <nav class="nav">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="projects.html">Projects</a
+          ><a href="academic-planner.html">Planner</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="intro">
+          <p class="kicker">A little organisation</p>
+          <h1>My planner<span style="color: var(--rose)">.</span></h1>
+          <p>Keep track of study plans, tasks and little goals.</p>
+        </section>
+        <section class="section">
+          <div class="panel">
+            <h2>What’s on your list?</h2>
+            <div class="task-tools">
+              <input
+                id="taskInput"
+                class="task-input"
+                placeholder="Add a task..."
+                aria-label="New task"
+              /><button id="addTask" class="btn">Add task +</button>
+            </div>
+            <div class="filters">
+              <button class="active" data-filter="all">All</button
+              ><button data-filter="active">To do</button
+              ><button data-filter="done">Completed</button>
+            </div>
+            <div id="taskList"></div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <span class="footbrand">Michelle.</span
+        ><span>Okejah Ogochukwu Michelle</span><span>© 2026</span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

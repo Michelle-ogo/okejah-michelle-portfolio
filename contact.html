@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact | Michelle</title>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="top">
+        <a class="brand" href="index.html"
+          ><span class="mark">M</span> Michelle</a
+        ><button class="menu" aria-label="Toggle navigation">Menu</button>
+        <nav class="nav">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="projects.html">Projects</a
+          ><a href="academic-planner.html">Planner</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section class="intro">
+          <p class="kicker">Say hello</p>
+          <h1>Let’s connect<span style="color: var(--rose)">.</span></h1>
+          <p>Have a question or want to reach out?</p>
+        </section>
+        <section class="columns">
+          <div class="panel">
+            <h2>Contact details</h2>
+            <p>I’d be happy to hear from you.</p>
+            <div class="details">
+              <b>Email</b
+              ><a href="mailto:m.okejah9488@miva.edu.ng"
+                >m.okejah9488@miva.edu.ng</a
+              ><a
+                href="https://www.tiktok.com/@michellelly__?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+              >
+                <b>TikTok</b><span>@michellelly__</span>
+              </a>
+            </div>
+          </div>
+          <div class="panel">
+            <h2>Send a message</h2>
+            <form id="contactForm" class="form">
+              <div class="field">
+                <label for="name">Your name</label><input id="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your email</label
+                ><input id="email" type="email" required />
+              </div>
+              <div class="field full">
+                <label for="message">Message</label
+                ><textarea id="message" required></textarea>
+              </div>
+              <div class="field full">
+                <button class="btn">Send message ↗</button>
+              </div>
+            </form>
+            <p id="notice" role="status"></p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <span class="footbrand">Michelle.</span
+        ><span>Okejah Ogochukwu Michelle</span><span>© 2026</span>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
